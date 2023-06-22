@@ -1,0 +1,141 @@
+{
+  "count": 1,
+  "rows": [
+    {
+      "uuid": "d42e4dae-87b4-4d34-8dbe-e39daa7d18ea",
+      "title": "test",
+      "description": null,
+      "building_uuid": "a1911e44-0977-4e97-ad7c-c4f9c338d08f",
+      "apartment_uuid": "6d9ccdf9-5745-46b5-b12b-a3b2c8ef8208",
+      "common_area_uuid": null,
+      "department_uuid": "d840e573-b8e0-40a5-95dd-76cd58a29c4c",
+      "task_type_uuid": "187ace99-133c-4c5f-806b-285d0774d802",
+      "assignee_uuid": null,
+      "is_express": false,
+      "due_date": "2023-02-23",
+      "is_recurring": false,
+      "start_activity_date": null,
+      "end_activity_date": null,
+      "frequency": null,
+      "frequency_day": null,
+      "parent_task_uuid": null,
+      "status": "to_do",
+      "reporter_uuid": "0a3f3bb3-4f31-44b4-a9c8-c5eeab4a9ed6",
+      "booking_uuid": null,
+      "ref_uuid": null,
+      "ref_model": null,
+      "is_automatic": false,
+      "check_type": null,
+      "createdAt": "2023-02-23T10:12:35.859Z",
+      "updatedAt": "2023-02-23T10:12:35.859Z",
+      "checkout_report_uuid": null,
+      "checkout_report": null,
+      "building": {
+        "uuid": "a1911e44-0977-4e97-ad7c-c4f9c338d08f",
+        "label": {
+          "de": {
+            "title": "Rawfish"
+          },
+          "en": {
+            "title": "Rawfish"
+          },
+          "fr": {
+            "title": "Rawfish"
+          },
+          "it": {
+            "title": "Rawfish"
+          }
+        }
+      },
+      "apartment": {
+        "uuid": "6d9ccdf9-5745-46b5-b12b-a3b2c8ef8208",
+        "label": {
+          "de": {
+            "title": "Apartment 1.01"
+          },
+          "en": {
+            "title": "Apartment 1.01"
+          },
+          "fr": {
+            "title": "Apartment 1.01"
+          },
+          "it": {
+            "title": "Appartmento 1.01"
+          }
+        },
+        "building_uuid": "a1911e44-0977-4e97-ad7c-c4f9c338d08f",
+        "building_block_uuid": "8a462c7c-6d58-43c4-8f61-42dcccd29ee8",
+        "type_uuid": "d473567e-770c-4dfb-ab87-fa63d5ead247",
+        "building_orientation_uuid": "9642957b-2e1e-4620-9a37-20390b27d877",
+        "active": true,
+        "bookable_from": null,
+        "max_persons": 2,
+        "floor": 1,
+        "floor_section": "low",
+        "room_number": "1.01",
+        "price": "1",
+        "wifi_name": "wifi-name",
+        "wifi_password": "wifipsw",
+        "exivo_access_group_uuid": "d8421dbc-f177-42dc-a01b-957a7cafb63c",
+        "exivo_apartment_door_uuid": "fdbefefc-54b4-47a2-8292-e7c00577fffd",
+        "authority_code": "123",
+        "manager_uuid": "ef46811c-cd58-4e53-ba24-6c8ef7c70eaf",
+        "access_group": null,
+        "access_group_type": null,
+        "assa_abloy_apartment_door_id": null,
+        "createdAt": "2022-06-15T10:10:05.549Z",
+        "updatedAt": "2022-07-18T15:38:11.577Z"
+      },
+      "department": {
+        "uuid": "d840e573-b8e0-40a5-95dd-76cd58a29c4c",
+        "label": {
+          "de": {
+            "name": "Housekeeping"
+          },
+          "en": {
+            "name": "Housekeeping"
+          },
+          "fr": {
+            "name": "Housekeeping"
+          },
+          "it": {
+            "name": "Housekeeping"
+          }
+        },
+        "initials": "HK",
+        "color": null
+      },
+      "common_area": null,
+      "task_type": {
+        "uuid": "187ace99-133c-4c5f-806b-285d0774d802",
+        "label": {
+          "de": {
+            "name": ""
+          },
+          "en": {
+            "name": "Generic"
+          },
+          "fr": {
+            "name": ""
+          },
+          "it": {
+            "name": ""
+          }
+        },
+        "type": "GE"
+      },
+      "task_activities": [],
+      "task_attachments": [],
+      "assignee": null,
+      "reporter": {
+        "uuid": "0a3f3bb3-4f31-44b4-a9c8-c5eeab4a9ed6",
+        "firstname": "Federico",
+        "lastname": "Chilese HK",
+        "email": "federico.chilese.hk@rawfish.com"
+      }
+    }
+  ],
+  "meta": {
+    "187ace99-133c-4c5f-806b-285d0774d802": 1
+  }
+}
